@@ -35,7 +35,7 @@ $res = mysqli_fetch_array($result);
            		   </div>
            		</div>
            		<div class="input-div pass">
-           		   <div class="div">
+           		   <div id="abc" class="div">
            		    	<h5><?php echo '<span style="color:#38d39f">Email</span> : '.$_SESSION['email'].'';?></h5>
             	   </div>
 				</div>
